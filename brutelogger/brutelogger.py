@@ -22,7 +22,7 @@ class BruteLogger:
         """
         if len(handlers) == 1 and type(handlers[0]) is list:
             self.handlers = handlers[0]
-        else
+        else:
             self.handlers = handlers
 
     def __getattr__(self, attr_name, *args, **kwargs):
